@@ -43,7 +43,7 @@ function getValue(){
 
 
 // have the user chose the desired size board
-createBoard(2); //default size
+createBoard(16); //default size
 const sizeButton = document.querySelector("#sizeButton");
 sizeButton.addEventListener("click", () => getValue());
 
